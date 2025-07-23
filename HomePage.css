@@ -1,0 +1,55 @@
+.home-page {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 80px); /* Adjust based on Navbar height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .home-page p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  .logged-in-message,
+  .auth-links {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .logged-in-message p,
+  .auth-links p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .home-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
